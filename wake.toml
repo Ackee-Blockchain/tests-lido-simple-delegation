@@ -1,0 +1,6 @@
+[compiler.solc]
+exclude_paths = ["source", "tests/ScriptExecutor.sol"]
+include_paths = ["source/node_modules"]
+
+[compiler.solc.optimizer]
+enabled = true
