@@ -9,7 +9,7 @@ This repository serves as an example of tests written in a development and testi
 2. `git submodule update --init --recursive` if not cloned with `--recursive`
 3. `cd source && yarn install && cd ..` to install dependencies
 4. `./compile.sh`  to generate bytecode for Solidity 0.4.24 contracts (Wake supports >= 0.6.2)
-4. `wake up pytypes` to generate pytypes
-5. `wake test` to run tests
+5. `wake up pytypes` to generate pytypes
+6. `wake test` to run tests
 
 Tested with `wake` version `4.6.0` and `anvil` version `anvil 0.2.0 (42a9d34 2024-03-18T00:19:07.671827733Z)`.
